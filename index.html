@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
     <title>AppBarber</title>
 </head>
 
@@ -12,28 +13,36 @@
 
     <header>
         <div class="container">
-            <img src="img/logoBarber.png" alt="Logo">
+            <img class="logo" src="img/logoBarber.png" alt="Logo">
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Sobre</a>
-                <a href="#">Acessar</a>
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="login.html">Criar Conta</a>
             </nav>
         </div>
     </header>
 
     <main>
         <div class="container">
-            <h1 class="titulo">AppBarbber</h1>
+            <h1 class="titulo">AppBarber</h1>
             <p>Uma nova experiência para uma antiga tradição.</p>
-            <button role="button" class="botao">Crie sua conta</button>
+            <div class="test">
+                <a href="login.html">
+                <button role="button" class="botao">Crie sua conta</button>
+            </a>
+            </div>
         </div>
     </main>
 
     <footer>
         <div class="container">
             <p>Baixe o aplicativo nas Stores</p>
-            <img src="img/downloadStore.png" alt="">
-            <img src="img/downloadPlay.png" alt="">
+            <a href="#">
+                <img src="img/downloadStore.png" alt="">
+            </a>
+            <a href="#">
+                <img src="img/downloadPlay.png" alt="">
+            </a>
         </div>
     </footer>
 
